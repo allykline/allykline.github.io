@@ -1,0 +1,14 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: "black";
+}
+
+img {
+	width: 100%;
+}
+
+.navbar-brand {
+	font-family: 'Nunito', sans-serif;
+	font-size: 14pt;
+
+}
