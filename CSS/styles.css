@@ -1,0 +1,82 @@
+body {
+	background-color: #5b5b78;
+}
+
+p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 25px 50px 25px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+}
+
+.vidbox {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 10px 10px 10px;
+}
+.me {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 10px 15px 40px;
+	background-size: 100px;
+	margin: 25px 0 0;
+}
+
+.myface {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+h4 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	padding: 5px 3px 2px;
+}
+
+ul {
+	list-style: none;	
+}
+
+li {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 5px 15px 10px;
+	margin-left: 1px;
+	margin-bottom: 10px;
+}
+
+.line-separator{
+	height:1px;
+	/*background:#717171;*/
+	border-bottom:1px solid #f6e2e3;
+	border-spacing: 3px;
+}
+
+.space{
+	padding: 0 0 30px;
+}
+
+a:link{
+	color: #f6e2e3;
+}
+
+a:visited{
+	color: #f6e2e3;
+}
