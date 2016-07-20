@@ -3,6 +3,11 @@ body {
 	background-color: "black";
 }
 
+.col-sm-4 {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
 img {
 	width: 100%;
 }
@@ -11,4 +16,9 @@ img {
 	font-family: 'Nunito', sans-serif;
 	font-size: 14pt;
 
+}
+
+.map {
+	padding-bottom: 25px;
+	width: 65%;
 }
