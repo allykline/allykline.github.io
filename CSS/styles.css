@@ -10,7 +10,19 @@ body {
 	overflow: hidden;
 	position: fixed;
 	top: 0;
+	left: 0;
+	right: 0;
 	width: 100%;
+	z-index: 9999;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	background-color: #f6e2e3;
 }
 p {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -21,7 +33,7 @@ h1 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #f6e2e3;
 	background-color: #5b5b78;
-	padding: 25px 50px 10px;
+	padding: 70px 50px 10px;
 }
 
 h2 {
@@ -29,7 +41,7 @@ h2 {
 	color: #f6e2e3;
 }
 
-.scratch {
+#scratch {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #f6e2e3;
 	background-color: #8a86a5;
@@ -63,7 +75,9 @@ img.jukeimg:hover {
 	opacity: 0.5;
 }
 
-.vidbox {
+
+
+#vidbox {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #f6e2e3;
 	background-color: #8a86a5;
@@ -78,15 +92,71 @@ img.jukeimg:hover {
 	margin: 25px 0 0;
 }
 
+#final {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 10px 15px 40px;
+	background-size: 100px;
+	margin: 25px 0 0;
+}
+
+#pygame {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 10px 15px 40px;
+	background-size: 100px;
+	margin: 25px 0 0;
+}
+
 .myface {
 	float: left;
 	margin: 0 10px 10px 0;
 }
 
-.clearfix{
+.clearfix {
 	overflow: auto;
 }
 
+#webdes {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 10px 15px 40px;
+	background-size: 100px;
+	margin: 25px 0 0;
+}
+
+#python {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #f6e2e3;
+	background-color: #8a86a5;
+	padding: 10px 15px 40px;
+	background-size: 100px;
+	margin: 25px 0 0;
+}
+
+#gent {
+	width: 30%;
+}
+
+img#gent:hover {
+	color: #8a86a5;
+	opacity: 0.5;
+}
+
+#pythonpic {
+	width: 20%;
+}
+
+#pygamepic {
+	width: 20%;
+}
+
+#htmlcss {
+	width: 15%;
+}
 h4 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #f6e2e3;
@@ -125,3 +195,8 @@ a:link{
 a:visited{
 	color: #f6e2e3;
 }
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
