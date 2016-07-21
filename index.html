@@ -4,67 +4,172 @@
 		<title>
 			Ally Kline's Totally AWESOME Portfolio
 		</title>
-		<link rel="stylesheet" href="css/styles.css"
+		<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+	<script src="js/portfolio.js"></script>
+		<link rel="stylesheet" href="css/styles.css">
 	</head>
-	
+	<body>
+		<!-- Navbar -->
+		<center>
+		<nav class="navbar">
+			<ul class= "navgation">
+				<li><a href="#week1">
+					WEEK 1
+				</a></li>
+				<li><a href="#week2">
+					WEEK 2
+				</a></li>
+				<li><a href="#week3">
+					WEEK 3
+				</a></li>
+				<li><a href="#week4">
+					WEEK 4
+				</a></li>
+				<li><a href="#week5">
+					WEEK 5
+				</a></li>
+				<li><a href="#week67">
+					WEEK 6/7
+				</a></li>
+				<li><a href="#about">
+					ABOUT ME
+				</a></li>
+				<li><a href="#media">
+					SOCIAL MEDIA
+				</a></li>
+			</ul>
+		</nav>
+		<!-- Top -->
 		<center><h1>
-			THE AMAZING WORLD OF ALLY KLINE
+			ALLY KLINE'S GIRLS WHO CODE PORTFOLIO
 		</h1></center>
+		</center>
 		<div class="line-separator"></div>
 		<div class="space"></div>
-	<body link = "white">
 		<h2>
 			SO, WHAT'S THIS PORTFOLIO ABOUT?
 		</h2>
 		<div class="line-separator"></div>
 		<p>
-			This is a little portfolio of the projects I did during the Girls Who Code 2016 Summer Immersion program. Feel free to take a peek at some of my work!
+			This is a little portfolio of the projects I did during the Girls Who Code 2016 Summer Immersion program. Feel free to take a peek at some of my work! (Click on a tab to see some of the work I did that week.)
 		</p>
-		<h2>
-			WEEK 1: SCRATCH
-		</h2>
-		<div class="line-separator"></div>
-		<h2>
-			WEEK 2: PYTHON
-		</h2>
-		<div class="line-separator"></div>
-		<h2>
-			WEEK 3: PYGAME
-		</h2>
-		<div class="line-separator"></div>
-		<h2>
-			WEEK 4: ARDUINO ROBOTICS
-		</h2>
-		<div class="line-separator"></div>
-		<center>
-		<div class= space></div>
-		<div class="vidbox">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/zujh9lnfbMY" frameborder="0" allowfullscreen></iframe>
-			<p> This is a video of my group's Arduino UNO BoEBot dancing to the song "Bet on It" from <i> High School Musical 2. </i> During this portion of the program, we also wired LEDs to blink, programmed Piezo songs, and used the same robot as a whisker bot to detect walls and other obstacles. </p>
+
+		<!-- Content/Accordion sections -->
+		<div id="accordion">
+		<a name="week1"></a>
+			<h2 class="accordion-toggle">
+				WEEK 1: SCRATCH
+				<div class="line-separator"></div>
+			</h2>
+		<!-- <div class="clearfix"> -->
+		<div class="accordion-content">
+			<div id="scratch">
+			<center>
+				<img src="images/scratchlogo.png" class="logo">
+			</center>
+				<p> Scratch is a visual programming language. We used Scratch during the first week of the Girls who Code program to get a feel for computer programming. Below are two projects that I worked on in Scratch: Pig and the Jukebox. Clicking on the images will bring you to the two programs on the Scratch website, where you can see them in action alongside descriptions of what they do. </p>
+			<center>
+				<a href="https://scratch.mit.edu/projects/116675606/">
+					<img src="images/pig.png" class="pigimg">
+				</a>
+				<a href="https://scratch.mit.edu/projects/116675570/">
+					<img src="images/jukebox.png" class="jukeimg">
+				</a>
+			</center>
+			</div>
 		</div>
-		</center>
-		<h2>
-			WEEK 5: WEB DEVELOPMENT
-		</h2>
-		<div class="line-separator"></div>
-		<h2>
+
+		<a name="week2"></a>
+			<h2 class="accordion-toggle">
+				WEEK 2: PYTHON
+				<div class="line-separator"></div>
+			</h2>
+		<div class="accordion-content">
+			<div id="python">
+				<center>
+					<img src="images/python.png" id="pythonpic">
+				</center>
+				<p> During the second week of Girls Who Code, we worked with Python and created Mad Libs, a text adventure game, a random name generator, a grocery list creator. We also learned how to hash and store passwords.</p>
+			</div>
+		</div>
+
+		<a name="week3"></a>
+			<h2 class="accordion-toggle">
+				WEEK 3: PYGAME
+				<div class="line-separator"></div>
+			</h2>
+			<div class="accordion-content">
+				<div id="pygame">
+					<center>
+						<img src="images/pygame.gif" id="pygamepic">
+					</center>
+					<p> During Week 3, we worked with the Python library, Pygame. I found it particularily difficult, but I somehow managed. We made bouncing balls, snow fall, and a city scroller. </p>
+				</div>
+			</div>
+
+		
+		<a name="week4"></a>
+			<h2 class="accordion-toggle">
+				WEEK 4: ARDUINO ROBOTICS
+				<div class="line-separator"></div>
+			</h2>
+		<div class="accordion-content">
+			<center>
+			<div class= space></div>
+			<div id="vidbox">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/zujh9lnfbMY" frameborder="0" allowfullscreen></iframe>
+				<p> This is a video of my group's Arduino UNO BoEBot dancing to the song "Bet on It" from <i> High School Musical 2. </i> During this portion of the program, we also wired LEDs to blink, programmed Piezo songs, and used the same robot as a whisker bot to detect walls and other obstacles. </p>
+			</div>
+			</center>
+		</div>
+
+		<a name="week5"></a>
+			<h2 class="accordion-toggle">
+				WEEK 5: WEB DEVELOPMENT
+				<div class="line-separator"></div>
+			</h2>
+			<div class="accordion-content">
+				<div id="webdes">
+					<p> During Week 5, we focused on Web Development. During this week we learned HTML, CSS, Bootstrap, and JavaScript/jQuery. I made this portfolio and another website (link below :) while learning the three languages and two libraries.</p>
+					<center>
+						<a href="gentrification.html"><img src="images/gent.png" id="gent"></a>
+					</center>
+				</div>
+			</div>
+
+			
+		<a name="week67"></a>
+		<h2 class="accordion-toggle">
 			WEEKS 6/7: FINAL PROJECT
+			<div class="line-separator"></div>
 		</h2>
-		<div class="line-separator"></div>
-		<h2>
-			WHO IS ALLY KLINE, ANYWAYS?
+		<div class="accordion-content">
+			<div id="final">
+				<p> Who knows what'll happen.... oooooooo
+				</p>
+				<center>
+					<img src="images/avatar.gif">
+			</div>
+		</div>
+		
+		<a name="about"></a>
+		<h2 class="accordion-toggle">
+			WHO IS THIS ALLY KLINE PERSON, ANYWAYS?
+			<div class="line-separator"></div>
 		</h2>
-		<div class="line-separator"></div>
 		<div class="clearfix">
 		<p class="me">
 			<img class= "myface" src= "images/me.jpg" ALIGN = "left">
-			Hi, my name is Ally Kline. I'm currently a junior at Saint Francis High School in Mountain View, California. I really enjoy working with technology and computers. I participated in the Girls Who Code 2016 Summer Immersion Program, where I learned Python, Arduino Robotics, HTML, CSS, and JavaScript. In my free time, I like to chill with my dog, Stewie, play video games, draw, and write. I would like to study CS in college and <i>hopefully</i> get to work in video/computer game design and creation. I'm also a pro binge watcher and tea enthusiast. 
+			Hi, I'm Ally (Aika) Kline. I'm currently a junior at Saint Francis High School in Mountain View, California. I really enjoy working with technology and computers. My talents include, but are not limited to: pro binge watching, tea drinking and enjoying, lip synching (especially in the shower), taking <i>very</i> artsy pictures, and rolling my R's. I participated in the Girls Who Code 2016 Summer Immersion Program, where I learned Python, Arduino Robotics, HTML, CSS, and JavaScript. In my free time, I like to chill with my dog, Stewie, play video games, draw, and write. I would like to study CS in college and <i>hopefully</i> get to work in video/computer game design and creation in the future.
 		</p>
 		</div>
-		<h2>
+
+		<a name="media"></a>
+		<h2 class="accordion-toggle">
 			SOCIAL MEDIA
+			<div class="line-separator"></div>
 		</h2>
-		<div class="line-separator"></div>
+		<center>
 		<ul>
 			<p>
 			Find me in these places:
@@ -77,6 +182,10 @@
 			</a></li>
 			<li><a href="https://twitter.com/tiramisugoi">Twitter: tiramisugoi
 			</a></li>
+			<li><a href="mailto:alessandrakline@sfhs.com">Email: alessandrakline@sfhs.com
+			</a></li>
 		</ul>
+		</center>
+
 	</body>
 </html>
